@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <PackageId>BusinessApi.AuIdentifiers</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Business API</Authors>
+    <Company>Business API Pty Ltd</Company>
+    <Description>Validate and format Australian identifiers: ABN, ACN, ARBN, TFN, Director ID and VIN.</Description>
+    <PackageTags>abn;acn;arbn;tfn;vin;director-id;australia;validation;checksum</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://businessapi.com.au</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BusinessAPI/au-identifiers-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

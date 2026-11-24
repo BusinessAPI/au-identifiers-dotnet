@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BusinessApi.AuIdentifiers/BusinessApi.AuIdentifiers.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BusinessApi.AuIdentifiers.Tests/BusinessApi.AuIdentifiers.Tests.csproj" />
+  </Folder>
+</Solution>
