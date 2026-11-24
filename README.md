@@ -1,4 +1,4 @@
-# au-identifiers
+# Australian ABN, ACN and TFN Validation for .NET
 
 Validate and format Australian identifiers in .NET: ABN, ACN, ARBN, TFN, Director ID and VIN.
 
